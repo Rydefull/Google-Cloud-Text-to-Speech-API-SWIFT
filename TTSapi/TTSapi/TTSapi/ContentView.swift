@@ -10,7 +10,7 @@ struct ContentView: View {
     @State private var selectedGender: String = "FEMALE"
     @State private var selectedVoiceType: String = "Standard"
     
-    let apiKey = "AIzaSyCr0YSqwX_4G9YF9Zmua5SFX5w3rSqp1WU" // Замените на ваш API ключ
+    let apiKey = "YOURAPI" // Замените на ваш API ключ
     let languages = ["en-US", "ru-RU"]
     let genders = ["FEMALE", "MALE"]
     let voiceTypes = ["Standard", "WaveNet"]
